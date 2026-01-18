@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mis 15 – Josefina</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background: linear-gradient(180deg, #fdecef, #fff);
+      color: #4a4a4a;
+      text-align: center;
+    }
+    .container {
+      max-width: 520px;
+      margin: auto;
+      padding: 24px;
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 4px;
+    }
+    h2 {
+      font-size: 28px;
+      margin-top: 0;
+      color: #c98ca6;
+    }
+    .divider {
+      width: 80px;
+      height: 2px;
+      background: #c98ca6;
+      margin: 16px auto;
+      border-radius: 2px;
+    }
+    .card {
+      background: #ffffffcc;
+      border-radius: 18px;
+      padding: 20px;
+      margin: 16px 0;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+    }
+    .label {
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: #c98ca6;
+    }
+    .btn {
+      display: block;
+      margin: 12px auto 0;
+      padding: 14px 18px;
+      background: #c98ca6;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      width: 85%;
+    }
+    .btn.secondary {
+      background: #e8b7c8;
+    }
+    footer {
+      margin-top: 24px;
+      font-style: italic;
+      color: #777;
+    }
+    audio {
+      width: 100%;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>✨ Mis 15 ✨</h1>
+    <h2>Josefina</h2>
+
+
+    <div class="divider"></div>
+
+
+    <div class="card">
+      <p>Te invito a celebrar conmigo una noche muy especial 💕<br>
+      Un momento único que quiero compartir con vos.</p>
+    </div>
+
+
+    <div class="card">
+      <div class="label">📅 Fecha</div>
+      <p>21 de marzo de 2026</p>
+
+
+      <div class="label">⏰ Horario</div>
+      <p>21:00 hs</p>
+    </div>
+
+
+    <div class="card">
+      <div class="label">📍 Lugar</div>
+      <p><strong>Espacio Terra</strong><br>
+      Isaac Belsky 638<br>
+      Entre San Martín y Gómez Fretes<br>
+      Merlo, Buenos Aires – CP 1722</p>
+
+
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Isaac+Belsky+638,+Merlo,+Buenos+Aires" target="_blank">
+        Ver ubicación
+      </a>
+    </div>
+
+
+    <div class="card">
+      <div class="label">🎁 Regalos</div>
+      <p>Si deseás hacerme un regalo,<br>
+      podés hacerlo a través de <strong>Mercado Pago</strong> 💖</p>
+      <p><strong>Alias:</strong> josefina.melnik</p>
+    </div>
+
+
+    <div class="card">
+      <div class="label">📲 Confirmar asistencia</div>
+      <p>Por favor confirmá tu presencia tocando el botón:</p>
+      <a class="btn secondary" href="https://wa.me/5491160192015?text=Hola%2C%20confirmo%20mi%20asistencia%20a%20los%2015%20de%20Josefina%20%F0%9F%92%96" target="_blank">
+        Confirmar asistencia
+      </a>
+    </div>
+
+
+    <div class="card">
+      <div class="label">🎵 Música</div>
+      <p>Disfrutá esta canción suave mientras ves la invitación</p>
+      <audio controls>
+        <source src="https://cdn.pixabay.com/download/audio/2022/10/30/audio_1a9b0b9f3b.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+
+    <footer>
+      💫 Te espero para compartir una noche inolvidable 💫
+    </footer>
+  </div>
+</body>
+</html>
